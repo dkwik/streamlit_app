@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+plotly.express
+google-cloud-bigquery==3.9.0
+pandas-gbq
+protobuf<=3.20.1
