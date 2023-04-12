@@ -82,8 +82,6 @@ def main():
         # Change employer list based on conditions
         st.dataframe(df_output)
     
-        #
-        
 
         # CONTACT FORM
         st.subheader("Help us learn how to contact you for more opportunities")
