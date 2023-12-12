@@ -36,10 +36,10 @@ def main():
     menu = ["Home"]
     choice = st.sidebar.selectbox("Menu", menu)
     
-    st.title("International Job Board")
+    st.title("International H-1B Lookup")
     
     if choice == "Home":
-        st.subheader("Search for jobs that have the highest likelihood of sponsoring you")
+        st.subheader("Lookup H-1B Information")
 
         # Search Form
         with st.form(key='job_search_form'):
@@ -91,9 +91,8 @@ def main():
             lastname = st.text_input("Last Name")
             email = st.text_input("Email")
             mobile = st.text_input("Mobile")
-            best_friend = st.text_input("best friend")
             
-            submit_button = st.form_submit_button(label = "Search")
+            submit_button = st.form_submit_button(label = "Submit")
             
 
         
