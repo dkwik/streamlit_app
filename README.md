@@ -1,5 +1,5 @@
 # Quick Prototyping App Streamlit
-I built a very lightweight streamlit app just to build familiarity with the streamlit tooling:
+I built a very lightweight streamlit app to query H-1B job information from a database just to build familiarity with the streamlit tooling.
 
 ## Features
  - Quick form submission with multi-selection 
